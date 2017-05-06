@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Vivek\Documents\Visual Studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\SpecflowTest.dll" total="0" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-05-01" time="22:16:44">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\Vivek\Downloads\tarwn-mvcmusicstore.interfacetests\tarwn-mvcmusicstore.interfacetests-cf94d3046b95\packages\NUnit.2.5.10.11092\tools" machine-name="JIMMY" user="Vivek" user-domain="JIMMY" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Vivek\Documents\Visual Studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\SpecflowTest.dll" executed="True" result="Inconclusive" success="False" time="0.016" asserts="0" />
+</test-results>

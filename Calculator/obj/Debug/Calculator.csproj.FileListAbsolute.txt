@@ -1,0 +1,6 @@
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\Calculator\bin\Debug\Calculator.dll
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\Calculator\bin\Debug\Calculator.pdb
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\Calculator\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\Calculator\obj\Debug\Calculator.dll
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\Calculator\obj\Debug\Calculator.pdb

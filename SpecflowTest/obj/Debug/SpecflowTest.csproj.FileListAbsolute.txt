@@ -1,0 +1,13 @@
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\Default.srprofile
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\SpecflowTest.dll.config
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\SpecflowTest.dll
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\SpecflowTest.pdb
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\SpecRun.SpecFlowPlugin.dll
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\TechTalk.SpecFlow.dll
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\TechTalk.SpecRun.dll
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\obj\Debug\SpecflowTest.csprojResolveAssemblyReference.cache
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\obj\Debug\SpecflowTest.dll
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\obj\Debug\SpecflowTest.pdb
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\Calculator.dll
+c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\Calculator.pdb

@@ -1,0 +1,521 @@
+﻿Discovering target: Default
+Discovering tests from assembly: C:\Users\Vivek\Documents\Visual Studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\SpecflowTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpecflowTest/Default - 
+#1: Default - 
+#2: SpecflowTest - 
+#3: Calculate - 
+#4: Add two numbers - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Add+two+numbers
+#5: deduct two numbers - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:deduct+two+numbers
+#6: Add Multiple Adds, 20 - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Add+Multiple+Adds%2c+20
+#7: Add Multiple Adds, 30 - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Add+Multiple+Adds%2c+30
+#8: multiply two values - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:multiply+two+values
+#9: Divide - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Divide
+#10: Mod - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Mod
+#11: Random No. generator - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Random+No.+generator
+#12: Power Test - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Power+Test
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecflowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Vivek\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:Before execution
+Thread#0:T:Before Feature
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:Presteps needs to be done
+Thread#0:T:done: CalculateSteps.GivenSomePreconditionCanBeCoveredInBackground() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveEnteredIntoTheCalculator(50) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveAlsoEnteredIntoTheCalculator(70) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:When I press add
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.WhenIPressAdd() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.ThenTheResultShouldBeOnTheScreen(120) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0.2518957 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:Presteps needs to be done
+Thread#0:T:done: CalculateSteps.GivenSomePreconditionCanBeCoveredInBackground() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 70 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveEnteredIntoTheCalculator(70) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:And I have also entered 30 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveAlsoEnteredIntoTheCalculator(30) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:When I press deduct
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.WhenIPressDeduct() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:Then the result should be 40 on the screen
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.ThenTheResultShouldBeOnTheScreen(40) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.0312516 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Presteps needs to be done
+Thread#0:T:done: CalculateSteps.GivenSomePreconditionCanBeCoveredInBackground() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:B:Given I have entered 20 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.GivenIHaveEnteredIntoTheCalculator(20) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:B:And I have also entered 10 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.GivenIHaveAlsoEnteredIntoTheCalculator(10) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:When I press add
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.WhenIPressAdd() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:Then the result should be 30 on the screen
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.ThenTheResultShouldBeOnTheScreen(30) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Scenario Block
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread
+Thread#0:Scheduler: using testitem #7 for thread
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.0312521 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Presteps needs to be done
+Thread#0:T:done: CalculateSteps.GivenSomePreconditionCanBeCoveredInBackground() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:B:Given I have entered 30 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.GivenIHaveEnteredIntoTheCalculator(30) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:B:And I have also entered 30 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.GivenIHaveAlsoEnteredIntoTheCalculator(30) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:When I press add
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.WhenIPressAdd() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:Then the result should be 60 on the screen
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.ThenTheResultShouldBeOnTheScreen(60) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Scenario Block
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread
+Thread#0:Scheduler: using testitem #8 for thread
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.0156277 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:Presteps needs to be done
+Thread#0:T:done: CalculateSteps.GivenSomePreconditionCanBeCoveredInBackground() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 40 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveEnteredIntoTheCalculator(40) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:And I have also entered 10 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveAlsoEnteredIntoTheCalculator(10) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:When I press multiple
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.WhenIPressMultiple() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:Then the result should be 400 on the screen
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.ThenTheResultShouldBeOnTheScreen(400) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread
+Thread#0:Scheduler: using testitem #9 for thread
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0.0312521 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:Presteps needs to be done
+Thread#0:T:done: CalculateSteps.GivenSomePreconditionCanBeCoveredInBackground() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 40 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveEnteredIntoTheCalculator(40) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:And I have also entered 10 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveAlsoEnteredIntoTheCalculator(10) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:When I press divide
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.WhenIPressDivide() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:Then the result should be 4 on the screen
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.ThenTheResultShouldBeOnTheScreen(4) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #10 from normal test queue 
+Thread#0:Scheduler: considering testitem #10 for thread
+Thread#0:Scheduler: using testitem #10 for thread
+Thread#0:Scheduler: Test #10 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 0.0468766 seconds
+Thread#0: Test #10/0 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:Presteps needs to be done
+Thread#0:T:done: CalculateSteps.GivenSomePreconditionCanBeCoveredInBackground() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 34 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveEnteredIntoTheCalculator(34) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:And I have also entered 10 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveAlsoEnteredIntoTheCalculator(10) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:When I press mod
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.WhenIPressMod() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:Then the result should be 4 on the screen
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.ThenTheResultShouldBeOnTheScreen(4) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #11 from normal test queue 
+Thread#0:Scheduler: considering testitem #11 for thread
+Thread#0:Scheduler: using testitem #11 for thread
+Thread#0:Scheduler: Test #11 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 0.031251 seconds
+Thread#0: Test #11/0 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Presteps needs to be done
+Thread#0:T:done: CalculateSteps.GivenSomePreconditionCanBeCoveredInBackground() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:B:Given I entered min value as 12 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.GivenIHaveEnteredIntoTheCalculator(12) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:B:And I also entered max value as 30 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.GivenIHaveAlsoEnteredIntoTheCalculator(30) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:When I press generate random number
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.WhenIPressGenerateRandomNumber() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:Then the result should be between 12 and 30
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:done: CalculateSteps.ThenTheResultShouldBeBetweenAnd(12, 30) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Scenario Block
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #12 from normal test queue 
+Thread#0:Scheduler: considering testitem #12 for thread
+Thread#0:Scheduler: using testitem #12 for thread
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #11/0 is finished on thread #0 as Succeeded within 0.0312505 seconds
+Thread#0: Test #12/0 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:Presteps needs to be done
+Thread#0:T:done: CalculateSteps.GivenSomePreconditionCanBeCoveredInBackground() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 10 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveEnteredIntoTheCalculator(10) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:And I have also entered 4 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveAlsoEnteredIntoTheCalculator(4) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:When I press power
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.WhenIPressPower() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:Then the result should be 10000 on the screen
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.ThenTheResultShouldBeOnTheScreen(10000) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0:T:After
+Thread#0:T:After Feature
+Thread#0:T:After execution
+Thread#0: Test #12/0 is finished on thread #0 as Succeeded within 0.0468782 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 9
+Succeeded: 9
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

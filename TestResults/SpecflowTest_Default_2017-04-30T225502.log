@@ -1,0 +1,347 @@
+﻿VS filter: testpath:TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Add+Multiple+Adds%2c+20 | testpath:TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Add+Multiple+Adds%2c+30 | testpath:TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Add+two+numbers | testpath:TestAssembly:SpecflowTest/Feature:Calculate/Scenario:deduct+two+numbers
+Discovering target: Default
+Discovering tests from assembly: c:\users\vivek\documents\visual studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\SpecflowTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpecflowTest/Default - 
+#1: Default - 
+#2: SpecflowTest - 
+#3: Calculate - 
+#4: Add two numbers - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Add+two+numbers
+#5: deduct two numbers - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:deduct+two+numbers
+#6: Add Multiple Adds, 20 - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Add+Multiple+Adds%2c+20
+#7: Add Multiple Adds, 30 - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Add+Multiple+Adds%2c+30
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecflowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Vivek\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:Before execution
+Thread#0:T:Before Feature
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I press add
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Inconclusive: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #4/0 is finished on thread #0 as Inconclusive within 0.4908965 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I press add
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Inconclusive: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #4/1 is finished on thread #0 as Inconclusive within 0.0350258 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I press add
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Inconclusive: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #4/2 is finished on thread #0 as Inconclusive within 0.0250174 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 70 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I have also entered 30 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I press deduct
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be 40 on the screen
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Inconclusive: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: reschedule tests for testitem #0
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #5/0 is finished on thread #0 as Inconclusive within 0.0290207 seconds
+Thread#0: Test #5/1 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 70 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I have also entered 30 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I press deduct
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be 40 on the screen
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Inconclusive: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread
+Thread#0:Scheduler: using testitem #5 for thread
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #5/1 is finished on thread #0 as Inconclusive within 0.0350236 seconds
+Thread#0: Test #5/2 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 70 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I have also entered 30 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I press deduct
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be 40 on the screen
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Inconclusive: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread
+Thread#0:Scheduler: using testitem #6 for thread
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0:T:After
+Thread#0: Test #5/2 is finished on thread #0 as Inconclusive within 0.0340237 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:B:Given I have entered 20 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:And I have also entered 10 into the calculator
+Thread#0:T:skipped because of previous errors
+Thread#0:B:When I press add
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then the result should be 30 on the screen
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Inconclusive: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [Given(@"Some precondition can be covered in background")]
+Thread#0:T:public void GivenSomePreconditionCanBeCoveredInBackground()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Cancelling because configured number of failures reached
+Thread#0:T:After
+Thread#0:T:After Feature
+Thread#0:T:After execution
+Thread#0: Test #6/0 is finished on thread #0 as Inconclusive within 0.0310214 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#-1:Scheduler: considering testitem #7 for thread
+Thread#-1:Scheduler: using testitem #7 for thread
+Thread#-1:Scheduler: Test #7 is scheduled for thread
+Thread#-1: Test #7/0 is started on thread #-1
+Thread#-1: Test #7/0 is finished on thread #-1 as Skipped within 0 seconds
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 4 (test executions: 8)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 1
+Failed: 3

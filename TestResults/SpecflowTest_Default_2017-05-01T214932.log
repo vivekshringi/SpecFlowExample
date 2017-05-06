@@ -1,0 +1,88 @@
+﻿VS filter: testpath:TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Power+Test
+Discovering target: Default
+Discovering tests from assembly: C:\Users\Vivek\Documents\Visual Studio 2015\Projects\SpecflowTest\SpecflowTest\bin\Debug\SpecflowTest.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpecflowTest/Default - 
+#1: Default - 
+#2: SpecflowTest - 
+#3: Calculate - 
+#12: Power Test - TestAssembly:SpecflowTest/Feature:Calculate/Scenario:Power+Test
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #12 from normal test queue 
+Thread#0:Scheduler: considering testitem #12 for thread
+Thread#0:Scheduler: using testitem #12 for thread
+Thread#0:Scheduler: Test #12 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecflowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Vivek\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #12/0 is started on thread #0
+Thread#0:T:Before execution
+Thread#0:T:Before Feature
+Thread#0:T:Before
+Thread#0:T:Before Scenario Block
+Thread#0:B:Given Some precondition can be covered in background
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:Presteps needs to be done
+Thread#0:T:done: CalculateSteps.GivenSomePreconditionCanBeCoveredInBackground() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:Given I have entered 2 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveEnteredIntoTheCalculator(2) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:B:And I have also entered 5 into the calculator
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.GivenIHaveAlsoEnteredIntoTheCalculator(5) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:When I press power
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.WhenIPressPower() (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:T:Before Scenario Block
+Thread#0:B:Then the result should be 32 on the screen
+Thread#0:T:Before Step 0
+Thread#0:T:Before Step 100
+Thread#0:T:Before Step
+Thread#0:T:done: CalculateSteps.ThenTheResultShouldBeOnTheScreen(32) (0.0s)
+Thread#0:T:After Step 0
+Thread#0:T:After Step 100
+Thread#0:T:After Step
+Thread#0:T:After Scenario Block
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0:T:After
+Thread#0:T:After Feature
+Thread#0:T:After execution
+Thread#0: Test #12/0 is finished on thread #0 as Succeeded within 0.2711804 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
